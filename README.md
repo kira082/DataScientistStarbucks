@@ -1,4 +1,4 @@
-# Udacity Data Scientist Nanodegree Capstone Project
+# Starbucks Predict Effective Offers
 
 This repository has all the code and report for my Udacity Data Scientist Nanodegree Capstone project.
 
