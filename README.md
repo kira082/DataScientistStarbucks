@@ -6,7 +6,13 @@ This repository has all the code and report for my Udacity Data Scientist Nanode
 
 ### 1. Installations
 This project was written in Python, using Jupyter Notebook on Anaconda. The relevant Python packages for this project are as follows:
+The project uses Python 3. To install it run:
+$ conda env create -f sbucks.yml
+$ source activate sbucks
+$ pip install -e .
+$ python src/data/make_dataset.py
 
+The "make_dataset.py" script takes a long time to run (between 40 minutes and 1 hour). It is not necessary to run it, but the datasets have to be generated somewhere. If the script is not run, the main notebook will generate the datasets (taking longer to run).
 - pandas
 - numpy
 - math
